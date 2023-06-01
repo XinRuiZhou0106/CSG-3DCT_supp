@@ -1,4 +1,4 @@
-# Supplementary Material for MICCAI 2023 accepted paper: Inflated 3D Convolution-Transformer for Weakly-supervised Carotid Stenosis Grading with Ultrasound Videos
+# Supplementary Material for MICCAI 2023 Accepted Paper: Inflated 3D Convolution-Transformer for Weakly-supervised Carotid Stenosis Grading with Ultrasound Videos
 __Supplemental Table 1.__ Architecture of CSG-3DCT, where each stage (c₁-c₅) mainly includes a 3D Conv (mark in blue) and AMDF Trans (mark in red) blocks, except 3D Conv Sub-block in c₁. Residual connections are performed
 in all 3D Conv Sub-blocks. Kernels are denoted by {*T* × *S*², *C*} for temporal, spatial, and channel sizes. Strides denote {temporal stride, spatial stride²}. MHSA-12, MHCA-12 denote the multi-head self-attention and cross attention with heads 12 in AMDF Trans blocks, respectively. Arrows in 3D FCU column show the flow of feature.
 ![image](https://github.com/XinRuiZhou0106/CSG-3DCT_supp/blob/main/supp_miccai23.png)
